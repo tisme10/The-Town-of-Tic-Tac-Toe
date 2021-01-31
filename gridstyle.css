@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 3rem;
+  margin-top: 220px;
+}
+
+p {
+  font-size: 2rem;
+}
+
+body {
+  width: 100%;
+  margin-left: -5%;
+  margin-right: 1%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.bkg_img {
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.game-setup {
+  font-family: 'Cormorant Unicase', serif;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.cell {
+  width: 20%;
+  height: 20%;
+  background-color: none;
+  float: left;
+  border: 1px solid black;
+}
+
+button {
+  font-size: 20px;
+  /*padding: 10px;*/
+  width: 20%;
+  text-align: center;
+  color: #ece3d1;
+  background-color: black;
+  outline: none;
+  float: left;
+}
+
+.options {
+  position: relative;
+  left: -1%;
+
+}
+
+.board-size {
+  width: 70px;
+  height: 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding-left: 0.7rem;
+  color: black;
+  background-color: #ece3d1;
+}
+
+.board-count {
+  width: 120px;
+  height: 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding-left: 0.7rem;
+  color: black;
+  background-color: #ece3d1;
+}
+
+.board-round {
+  width: 70px;
+  height: 32px;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding-left: 0.7rem;
+  color: black;
+  background-color: #ece3d1;
+}
+
+button.player1 {
+  margin-left: 30%;
+  position: relative;
+  top: 200px;
+  right: -340px;
+}
+
+button.player2 {
+  margin-right: 30%;
+  position: relative;
+  top: 200px;
+  right: -360px;
+}
+
+button.reset, button.build-board {
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+  background-color:
+    height: 50px;
+  width: 150px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.msg-container {
+  text-align: center;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 25px;
+  width: 40%;
+  height: 80px;
+  padding: 10px;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid black;
+  background-color: "none";
+  position: relative;
+  top: 100px;
+  right: 335px;
+}
+
+.msg {
+  background-color: "none";
+}
+
+.player1 {
+  background-color: 		#5E5A53;
+}
+
+.player2 {
+  background-color: #BCB5A7;
+}
+
+.reset {
+  background-color: #ece3d1;
+  color: black;
+  position: relative;
+  left: 150px;
+}
+
+.game-setup {
+  display: block;
+  margin-left: 700px;
+  top: 80px;
+  position: absolute;
+}
+
+.game-play {
+  display: none;
+  margin-left: 600px;
+  top: 80px;
+  position: absolute;
+}
+
+select {
+  display: block;
+}
+
+.win {
+  background-color: hotpink;
+}
